@@ -1,6 +1,6 @@
 # require-hapiroutes
 
-###(This is module is BETA!)
+(This is module is BETA!)
 
 A module based on require-directory to load and manage hapi route definitions
 

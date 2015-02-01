@@ -1,10 +1,10 @@
 {
   "name": "require-hapiroutes",
   "version": "0.1.0",
-  "description": "Module that help organize and manage Hapi route definitions\"",
+  "description": "Module to help organize and manage Hapi route definitions\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/brianoneil/require-hapiroutes/issues"
   },
-  "homepage": "https://github.com/brianoneil/require-hapiroutes"
+  "homepage": "https://github.com/brianoneil/require-hapiroutes",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "require-directory": "^2.0.0"
+  }
 }
