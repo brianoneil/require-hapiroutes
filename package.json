@@ -1,0 +1,23 @@
+{
+  "name": "require-hapiroutes",
+  "version": "0.1.0",
+  "description": "Module that help organize and manage Hapi route definitions\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianoneil/require-hapiroutes.git"
+  },
+  "keywords": [
+    "hapi",
+    "route"
+  ],
+  "author": "Brian O'Neil <brian.oneil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianoneil/require-hapiroutes/issues"
+  },
+  "homepage": "https://github.com/brianoneil/require-hapiroutes"
+}
