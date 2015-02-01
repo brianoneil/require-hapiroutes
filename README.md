@@ -1,7 +1,5 @@
 # require-hapiroutes
 
-(This is module is BETA!)
-
 A module based on require-directory to load and manage hapi route definitions
 
 ## Installation
@@ -25,10 +23,13 @@ In your module, you just require the directory and register the ```routes``` pro
 ```javascript
 var routes = require('./routes');
 server.route(routes.routes);
-
 ```
 
-###Defining Routes
+This module uses the debug module for logging output.  To see logging output, set
+ ```
+ DEBUG=require-hapiroutes*
+ ```
+## Defining Routes
 
 In your route file you can define the routes in a few ways.
 
