@@ -6,14 +6,15 @@ A module based on require-directory to load and manage hapi route definitions
 
 ## Installation
 
-  ```npm install require-hapiroutes --save```
-
+  ```
+  npm install require-hapiroutes --save
+  ```
 ## Usage
 
 In the directory you want to define your routes, create an ```index.js``` file in the directory.  with the following lines in it.  This will load all the routes in the directory (as well as all the modules like require-directory does).
 
 ```javascript
-//required file for require-directory.  Make it easier to setup routes to js files
+//required file for require-hapiroutes.  Make it easier to setup routes to js files
 
 var requireHapiRoutes = require('require-hapiroutes');
 module.exports = requireHapiRoutes(module);
