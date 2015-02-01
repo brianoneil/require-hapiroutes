@@ -84,3 +84,4 @@ If you don't do either of these, it will just do the normal module loading stuff
 ## Release History
 
 * 0.1.0 Initial release
+* 0.1.1 Readme corrections for npm
