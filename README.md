@@ -6,7 +6,7 @@ A module based on require-directory to load and manage hapi route definitions
 
 ## Installation
 
-  npm install require-hapiroutes --save
+  ```npm install require-hapiroutes --save```
 
 ## Usage
 
