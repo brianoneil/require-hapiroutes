@@ -22,6 +22,7 @@
   "homepage": "https://github.com/brianoneil/require-hapiroutes",
   "dependencies": {
     "debug": "^2.1.1",
-    "require-directory": "^2.0.0"
+    "require-directory": "^2.0.0",
+    "mocha": "^2.1.0"
   }
 }
