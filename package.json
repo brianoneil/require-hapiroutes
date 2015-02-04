@@ -4,7 +4,7 @@
   "description": "Module to help organize and manage Hapi route definitions\"",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "dependencies": {
     "debug": "^2.1.1",
     "require-directory": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
   }
 }
