@@ -84,9 +84,10 @@ Example:
 If you don't do either of these, it will just do the normal module loading stuff for it.  Also, you can mix and match between and they will all get loaded in the end.
 
 ## Release History
-
-* 0.1.0 Initial release
-* 0.1.1 Readme corrections for npm
-* 0.1.2 Added tests for the package
-* 0.1.3 Updated the package to have execute the test and udpate the readme
+* 0.1.5 Got build running test on Travis.ci
 * 0.1.4 Added the build indicator to the readme
+* 0.1.3 Updated the package to have execute the test and udpate the readme
+* 0.1.3 Updated the package to have execute the test and udpate the readme
+* 0.1.2 Added tests for the package
+* 0.1.1 Readme corrections for npm
+* 0.1.0 Initial release
