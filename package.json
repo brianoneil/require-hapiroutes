@@ -1,6 +1,6 @@
 {
   "name": "require-hapiroutes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Module to help organize and manage Hapi route definitions\"",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,6 @@
   "homepage": "https://github.com/brianoneil/require-hapiroutes",
   "dependencies": {
     "debug": "^2.1.1",
-    "require-directory": "^2.0.0",
-    "mocha": "^2.1.0"
+    "require-directory": "^2.0.0"
   }
 }
