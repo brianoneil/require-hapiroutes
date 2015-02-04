@@ -1,5 +1,7 @@
 # require-hapiroutes
 
+[![Build Status](https://travis-ci.org/brianoneil/require-hapiroutes.svg)](https://travis-ci.org/brianoneil/require-hapiroutes)
+
 A module based on require-directory to load and manage hapi route definitions
 
 ## Installation
