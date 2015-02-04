@@ -85,3 +85,4 @@ If you don't do either of these, it will just do the normal module loading stuff
 
 * 0.1.0 Initial release
 * 0.1.1 Readme corrections for npm
+* 0.1.2 Added test for the package
