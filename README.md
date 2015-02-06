@@ -11,7 +11,7 @@ A module based on require-directory to load and manage hapi route definitions
   ```
 ## Usage
 
-In the directory you want to define your routes, create an ```index.js``` file in the directory.  with the following lines in it.  This will load all the routes in the directory (as well as all the modules like require-directory does).
+In the directory you want to define your routes, create an ```index.js``` file with the following code in it.  This will load all the routes in the directory (as well as all the modules like require-directory does).
 
 ```javascript
 //required file for require-hapiroutes.  Make it easier to setup routes to js files
@@ -64,7 +64,7 @@ Example of routes property:
   ];
 ```
 
-Or, you can just return the config object as your module (must have path and handler properties)
+Or, you can set the route object as your export (must have path and handler properties)
 
 Example:
 ```javascript
@@ -81,13 +81,40 @@ Example:
   };
 ```
 
+Or, you can set an array of them
+
+```javascript
+module.exports = [
+{
+  method : 'GET',
+  path : '/route3',
+  handler : routeHandler3,
+  config : {
+    description: 'my route description',
+    notes: 'Important stuff to know about this route',
+    tags : ['app']
+  }
+},
+{
+  method : 'GET',
+  path : '/route4',
+  handler : routeHandler4,
+  config : {
+    description: 'my route description',
+    notes: 'Important stuff to know about this route',
+    tags : ['app']
+  }
+}
+];
+```
+
 If you don't do either of these, it will just do the normal module loading stuff for it.  Also, you can mix and match between and they will all get loaded in the end.
 
 ## Release History
+* 0.1.6 Updated loader to also look for the module export to be an array of route objects
 * 0.1.5 Got build running test on Travis.ci
 * 0.1.4 Added the build indicator to the readme
-* 0.1.3 Updated the package to have execute the test and udpate the readme
-* 0.1.3 Updated the package to have execute the test and udpate the readme
+* 0.1.3 Updated the package to have the tests and update the readme
 * 0.1.2 Added tests for the package
 * 0.1.1 Readme corrections for npm
 * 0.1.0 Initial release

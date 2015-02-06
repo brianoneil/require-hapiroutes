@@ -1,7 +1,7 @@
 module.exports =
   {
     method : 'GET',
-    path : '/route1',
+    path : '/route',
     handler : function(req, reply) {},
     config : {
       description: 'my route description',

@@ -12,8 +12,8 @@ describe('Load Routes', function(){
       assert.equal(true, myRoutes.hasOwnProperty(propName));
 
     });
-    it('should have 3 loaded route in the array', function(){
-      assert.equal(3, myRoutes.routes.length)
+    it('should have 5 loaded route in the array', function(){
+      assert.equal(5, myRoutes.routes.length)
     })
   })
 })
