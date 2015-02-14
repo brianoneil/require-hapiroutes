@@ -1,7 +1,7 @@
 {
   "name": "require-hapiroutes",
-  "version": "0.1.6",
-  "description": "Module to help organize and manage Hapi route definitions\"",
+  "version": "0.1.7",
+  "description": "Module to help organize and manage Hapi route definitions",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
