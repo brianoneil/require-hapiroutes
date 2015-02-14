@@ -14,6 +14,11 @@ describe('Load Routes', function(){
     });
     it('should have 5 loaded route in the array', function(){
       assert.equal(5, myRoutes.routes.length)
-    })
-  })
+    });
+  });
+  describe('standard module load', function() {
+      it('should be a module that is a function', function() {
+        assert.equal('hello world', myRoutes.nonRouteModule());
+      }); 
+  });
 })
