@@ -12,13 +12,13 @@ describe('Load Routes', function(){
       assert.equal(true, myRoutes.hasOwnProperty(propName));
 
     });
-    it('should have 5 loaded route in the array', function(){
-      assert.equal(5, myRoutes.routes.length)
+    it('should have 6 loaded route in the array', function(){
+      assert.equal(6, myRoutes.routes.length)
     });
   });
   describe('standard module load', function() {
       it('should be a module that is a function', function() {
         assert.equal('hello world', myRoutes.nonRouteModule());
-      }); 
+      });
   });
 })

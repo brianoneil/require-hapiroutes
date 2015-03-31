@@ -22,7 +22,7 @@ module.exports = function(mod) {
       Array.prototype.push.apply(routes, routeModule);
     }
 
-    else if(routeModule.hasOwnProperty('handler') && routeModule.hasOwnProperty('path') && routeModule.handler && routeModule.path){
+    else if( (routeModule.hasOwnProperty('handler') || (routeModule.hasOwnProperty('config') && routeModule.config.hasOwnProperty('handler')) ) && routeModule.hasOwnProperty('path') && (routeModule.handler || routeModule.config.handler) && routeModule.path){
       debug('loading module as a route file: %s', keys[i]);
       routes.push(routeModule);
     }
