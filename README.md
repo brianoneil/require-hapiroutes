@@ -111,6 +111,7 @@ module.exports = [
 If you don't do either of these, it will just do the normal module loading stuff for it.  Also, you can mix and match between and they will all get loaded in the end.
 
 ## Release History
+* 0.1.8 Updated loading to allow handler to be in the config section
 * 0.1.7 Added test for loading regular modules that don't have routes in them
 * 0.1.6 Updated loader to also look for the module export to be an array of route objects
 * 0.1.5 Got build running test on Travis.ci
