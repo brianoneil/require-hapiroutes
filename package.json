@@ -1,6 +1,6 @@
 {
   "name": "require-hapiroutes",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Module to help organize and manage Hapi route definitions",
   "main": "index.js",
   "scripts": {
